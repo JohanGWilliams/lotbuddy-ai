@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LotBuddy AI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-slate-950">
+
+<div id="root"></div>
+
+<script type="module">
+
+import React from "https://esm.sh/react"
+import ReactDOM from "https://esm.sh/react-dom/client"
+import LotBuddyAI from "./App.jsx"
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  React.createElement(LotBuddyAI)
+)
+
+</script>
+
+</body>
+</html>
